@@ -114,15 +114,42 @@
 // }
 
                 // cities[0]    cities[1]   cities[2]   cities[3]   cities[4]   cities[5]   cities[6]   cities[7]   cities[8]   cities[9]
-const cities = ["Takoradi",     "Accra",    "Kumasi", "Sunyani",    "Accra", "Wa", "Bolgatanga","Cape Coast","Bawku", "Axim"]
-console.log(cities.length)
+// const cities = ["Takoradi",     "Accra",    "Kumasi", "Sunyani",    "Accra", "Wa", "Bolgatanga","Cape Coast","Bawku", "Axim"]
+// console.log(cities.length)
 
-for(let a=0;a<cities.length;a++){
+// for(let a=0;a<cities.length;a++){
 
-    if(cities[a] == "Accra"){
-        continue;
-    }else{
-    console.log(cities[a])
-    }
+//     if(cities[a] == "Accra"){
+//         console.log("i HAVE FOUND IT!")
+//         break;
+//     }else{
+//     console.log(cities[a])
+//     }
 
+// }
+
+
+
+// FOREACH
+
+
+
+
+// let a=0;
+
+// while(a<iceCreamFlavors.length){
+//     console.log(iceCreamFlavors[a])
+//     a++;
+// }
+
+
+
+const  iceCreamFlavors = ["Chocolate","Vanilla","Banana","Strawberry","Cookies and Cream","Mint", "Mango", "Pistachio", "Coffee", "Rum Raisin", "Rocky Road", "Neopolitan", "Pralines and Cream", "Mocha Almond Fudge", "Butter Pecan", "Peanut Butter", "Peppermint Stick", "Cake Batter", "Mint Chocolate Chip", "Cookie Dough", "Chocolate Chip Cookie Dough"]
+console.log(iceCreamFlavors.length)
+
+for(let a=iceCreamFlavors.length-1; a>-1; a--){
+    console.log(iceCreamFlavors[a])
 }
+
+
+// iceCreamFlavors.forEach(function(flavor){
