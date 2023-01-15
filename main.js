@@ -142,7 +142,16 @@
 //     a++;
 // }
 
+const body = document.querySelector("body")
+const h1 = document.createElement("h1")
+h1.textContent = "Ice Cream Flavors"
+const p = document.createElement("p")
 
+p.innerText = 'Click on the button to see the ice cream flavors'
+body.appendChild(h1)
+body.appendChild(p)
+body.style.background = "teal"
+body.style.color = "white"
 
 const  iceCreamFlavors = ["Chocolate","Vanilla","Banana","Strawberry","Cookies and Cream","Mint", "Mango", "Pistachio", "Coffee", "Rum Raisin", "Rocky Road", "Neopolitan", "Pralines and Cream", "Mocha Almond Fudge", "Butter Pecan", "Peanut Butter", "Peppermint Stick", "Cake Batter", "Mint Chocolate Chip", "Cookie Dough", "Chocolate Chip Cookie Dough"]
 console.log(iceCreamFlavors.length)
